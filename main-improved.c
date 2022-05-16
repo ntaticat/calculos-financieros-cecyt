@@ -1,3 +1,4 @@
+#include "readtemario.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -73,7 +74,6 @@ int main()
         {
 
         case 1:
-            //********************************Temas******************************************
 
             do
             {
@@ -98,315 +98,24 @@ int main()
                 printf("\n       Seleccione una opcion: ");
                 scanf("%i", &OpcionTema);
 
-                switch (OpcionTema)
+                if (OpcionTema >= 1 && OpcionTema <= 8)
                 {
-                case 1:
                     system("cls");
-                    system("color  1F");
-                    printf("\n  +Porcentaje\n\n\n");
-                    getch();
-                    printf("   -Porcentaje\n\n");
-                    printf("   Un porcentaje es la parte proporcional expresada en tanto porciento de\n   una cantidad llamada base, el porcentaje y la base siempre deben ser de\n   la misma especie.\n");
-                    printf("\n   1.- Base: Es la cantidad sobre la cual se calcula el porcentaje.\n\n   2.- Tanto porciento: Es el n�mero de veces que se toma un c�ntimo\n   de la base.\n\n   3.- Tanto por uno: Es la cent�sima parte del tanto porciento y el que\n   se emplea     en las operaciones.");
-                    printf("\n   La formula es: \n");
-                    printf("\n   P=Bt\n");
-                    printf("\n   Donde: P = Porcentaje");
-                    printf("\n          B = Base");
-                    printf("\n          t = Tanto porciento\n\n");
-                    getch();
-                    printf("\n   -Monto\n");
-                    printf("\n   Es la suma de la base mas el porcentaje.");
-                    printf("\n   La formula es:\n");
-                    printf("\n   M=B(1+t)\n");
-                    printf("\n   Donde: M = Monto");
-                    printf("\n          B = Base");
-                    printf("\n          t = Tanto porciento\n\n");
-                    getch();
-                    printf("\n   -Diferencia\n");
-                    printf("\n   La diferencia es el resultado que se obtiene de restar la base del\n   porcentaje.");
-                    printf("\n   La formula es:\n");
-                    printf("\n   D=B(1-t)\n");
-                    printf("\n   Donde: D = Diferencia");
-                    printf("\n          B = Base");
-                    printf("\n          t = Tanto porciento");
-                    getch();
-                    printf("\n\n\n   Presiona una tecla para ir al menu...");
-                    getch();
-                    break;
-
-                case 2:
-                    system("cls");
-                    system("color 2F");
-                    printf("\n   +Reparto Proporcional\n\n");
-                    printf("   Es la operacion que tiene por objetivo distribuir una cantidad en\n");
-                    printf("   proporcion directa o inversa a ciertos numeros dados, o a los\n");
-                    printf("   productos de varios numeros propuestos.\n\n");
-                    printf("   Se puede representar asi:\n\n");
-                    printf("      1. Reparto proporcional directo simple.\n");
-                    printf("      2. Reparto proporcional inverso simple.\n");
-                    printf("      3. Reparto proporcional directo compuesto.\n");
-                    printf("      4. Reparto proporcional inverso compuesto.\n");
-                    printf("      5. Reparto proporcional mixto.\n\n");
-                    printf("   En la materia de Calculos financieros I solo se ve el reparto\n");
-                    printf("   proporcional directo simple.\n\n");
-                    printf("   -Reparto proporcional directo simple.\n\n");
-                    printf("   Se considera directo cuando el numero de indice mayor o reparto\n");
-                    printf("   le corresponde mas y al indice menor le corresponde menos.\n");
-                    printf("   Es simple cuando solo existe una serie de datos para efectuar.\n");
-                    printf("   La resolucion de este tipo de casos se efectuan por medio del \n");
-                    printf("   metodo de factor constante, que consiste en dividir la cantidad\n");
-                    printf("   a repartir entre la suma de los datos, a el cociente representa\n");
-                    printf("   el factor constante y dicho factor se multiplica por cada uno\n");
-                    printf("   de los numeros dados.");
-                    getch();
-                    printf("\n\n\n   Presiona una tecla para ir al menu...");
-                    getch();
-                    break;
-
-                case 3:
-                    system("cls");
-                    system("color 9F");
-                    printf("\n                    HOJA DE PRORRATEO EN MONEDA NACIONAL                              ");
-                    printf("\n\n   Es la operacion que tiene por objeto determinar atraves de un reparto\n   proporcional, el gasto de una factura conciendo el precio de compra y\n   los gastos relacionados por la misma.");
-                    printf("\n\n   ELEMETOS:");
-                    getch();
-                    printf("\n\n    PRECIO DE COMPRA:\n    Se concidera haci al precio de adquisicion de las mercancias.");
-                    getch();
-                    printf("\n\n    PRECIO DE COSTO:\n    Es el precio de compra mas los gastos ocacionados por la misma.");
-                    getch();
-                    printf("\n\n    GASTOS:\n    Se le llaman a todas las erogaciones causadas por la compra\n    (salidas de dinero).");
-                    getch();
-                    printf("\n\n    GASTOS AL PESO:\n    Son todos aquellos ocacionados por el movimiento, y/o peso de la\n    mercancia, como los empaques, acarreos,fletes,maniobra en puertos\n    enbarques y desenbarques, enbalajes, almacenaje,etc.");
-                    getch();
-                    printf("\n\n    GASTOS AL VALOR:\n    Son toos aquellos que no dependen del movimiento y peso de la\n    mercancia, como documentacion, seguros, comiciones, derechos de\n    guarda y justodia, telefonemas, etc.");
-                    getch();
-                    printf("\n\n    Para efectuar un adecuado prorrateo de gastos es necesario distinguir\n    entre los pesos de la mercancia:");
-                    printf("\n\n    PESO BRUTO:\n    Es el peso de la mercancia con todas sus embulturas.");
-                    printf("\n\n    PESO NETO:\n    Es el peso de la mercacia despojada de todos sus empaques.");
-                    printf("\n\n    TARA:\n    Se llama asi al peso del empaque.");
-                    getch();
-                    printf("\n\n\n                    HOJA DE PRORRATEO EN MONEDA EXTRANJERA                            ");
-                    printf("\n\n    1.- TIPO DE CAMBIO:\n        Es la convercion de peso M�xicano de monadedas extranjeras.");
-                    printf("\n\n    2.- MONEDA EXTRANJERA:\n        Dinero en uso de otros paises.");
-                    printf("\n\n    3.- DERECHOS ADUANALES:\n        Son los impuestos que se cobran por la exportacion o importacion\n        de mercancia en otros paises.");
-                    getch();
-                    printf("\n\n\n   Presiona una tecla para ir al menu...");
-                    getch();
-                    break;
-
-                case 4:
-                    system("cls");
-                    system("color 4f");
-                    printf("\n                             %c Inter%cs Simple %c", 175, 130, 174);
-                    getch();
-                    printf("\n\n  Renta que se paga por el uso de un capital prestado y se calcula seg%cn un \n  tanto por ciento en un tiempo determinado, por lo consiguiente, la tasa \n  puede ser anual, semestral, cuatrimestral, trimestral, bimestral, mensual, \n  quincenal, semanal o diaria.\n", 163);
-                    printf("\n    %c Elementos", 248);
-                    printf("\n  - Capital (C: Cantidad que se impone a determinada tasa y por ciento tiempos).");
-                    printf("\n  - Inter%cs (I: Es la renta que se paga por el uso del capital).", 130);
-                    printf("\n  - Tiempo (n: N%cmero de a�os, meses, d%cas, etc, que dura la imposici%cn de \n    capital).", 163, 161, 162);
-                    printf("\n  - Tasa (t: Inter�s expresado en tanto por ciento).");
-                    printf("\n  - Monto (M: Suma del capital m�s los intereses).\n");
-                    printf("\n  En los ejercicios de inter%cs simple o financieros, generalmente se utiliza el \n  a%co comercial, es decir, el de 360 d%cas, el a%co natural es de 365 d%cas.\n", 130, 164, 161, 164, 161);
-                    printf("\n                                 %c F%crmulas\n", 248, 162);
-                    printf("\n                        I=Ctn       C=I/tn       t= I/Cn\n\n");
-                    getch();
-                    printf("\n\n\n   Presiona una tecla para ir al menu...");
-                    getch();
-                    break;
-
-                case 5:
-                    system("cls");
-                    system("color 5f");
-                    printf("\n                             %c Monto Simple %c\n", 175, 174);
-                    getch();
-                    printf("\n  Es la suma del capital m%cs los intereses, es el valor futuro y siempre es \n  mayor que el capital.", 160);
-                    getch();
-                    printf("\n\n  Inter%cs: Ganancia, r%cditos o inter%cs", 130, 130, 130);
-                    getch();
-                    printf("\n\n  Monto: Valor futuro");
-                    getch();
-                    printf("\n                               %c F%crmulas\n", 248, 162);
-                    printf("\n              M=C(1+tn)   C=M/(I+tn)   T=M/C-1 /n    n=M/C-1/t");
-                    getch();
-                    printf("\n\n\n   Presiona una tecla para ir al menu...");
-                    getch();
-                    break;
-
-                case 6:
-                    system("cls");
-                    system("color 3F");
-                    printf("\n   Descuento simple\n\n");
-                    getch();
-                    printf("   Cantidad o valor que se deduce de otro y se consigna de un\n");
-                    printf("   documento o titulo de credito por anticipacion anticipada a su \n");
-                    printf("   fecha de vencimiento.\n\n");
-                    getch();
-                    printf("   El valor inscrito a un documento se le conoce como valor \n");
-                    printf("   nominal y representa el capital prestado mas intereses.\n\n");
-                    getch();
-                    printf("   En el documento debe anotarse la fecha de vencimiento, es\n");
-                    printf("   decir, el dia que debe ser liquidado, si se paga antes de esa\n");
-                    printf("   fecha su valor disminuye. \n\n");
-                    getch();
-                    printf("   En la actualidad la operaciones a credito se garantizan atraves\n");
-                    printf("   de documentos y a falta de recursos se acude a instituciones\n");
-                    printf("   bancarias mediante endoso de documentos a cambio de dinero en \n");
-                    printf("   efectivo el cual es menor al valor nominal pues tendra que \n");
-                    printf("   esperar ala fecha de vencimiento para cobrarlo a esto se le\n");
-                    printf("   conoce como valor real o actual.\n\n");
-                    getch();
-                    printf("   Los elementos que intervienen en el descuento simple son:\n\n");
-                    printf("   1. Valor nominal (V) valor o cantidad que se inscribe en el\n");
-                    printf("      cuerpo del documento de credito y que lleva los intereses\n");
-                    printf("      acordados. \n\n");
-                    getch();
-                    printf("   2. Descuento simple (Ds) cantidad que se deduce del valor \n");
-                    printf("      nominal en funcion ala tasa y el tiempo determinado. \n\n");
-                    getch();
-                    printf("   3. Valor efectivo real o actual (Ve) resultado que se obtiene\n");
-                    printf("      de restar del valor nominal, descuento simple y gastos de\n");
-                    printf("      negociacion.\n\n");
-                    getch();
-                    printf("   4. Documento de credito: titulo de credito por medio del cual\n");
-                    printf("      una persona se compromete a pagar cierta cantidad\n");
-                    printf("      de dinero a una fecha determinada. \n\n");
-                    getch();
-                    printf("   Las operaciones de interes simple y descuento simple son muy \n");
-                    printf("   similares exceptuando que el interes es una utilidad y el \n");
-                    printf("   descuento una perdida. \n\n.");
-                    getch();
-                    printf("   Formulas:\n");
-                    getch();
-                    printf("   Descuento simple \n");
-                    printf("   Ds: Descuento simple\n");
-                    printf("   V: Valor nominal \n");
-                    printf("   T: Tasa\n");
-                    printf("   N: Tiempo \n\n");
-                    getch();
-                    printf("   Ds=V*T*N	V=Ds/T*N	T=Ds/V*N	N=Ds/T*V\n");
-                    getch();
-                    printf("\n\n\n   Presiona una tecla para ir al menu...");
-                    getch();
-                    break;
-
-                case 7:
-                    system("cls");
-                    system("color 8F");
-                    printf("\n   Valor efectivo \n\n");
-                    printf("   Es el resultado que se obtiene de restar el valor nominal,\n");
-                    printf("   descuento simple y gastos de negociacion si los hubiere. \n\n");
-                    printf("   Formulas:\n\n");
-                    printf("    Ve: Valor efectivo \n");
-                    printf("    V: Valor nominal \n");
-                    printf("    T: Tasa\n");
-                    printf("    N: Tiempo \n\n");
-                    printf("   V=Ve/(1-T*N)	Ve=V(1-T*N)		T=(1-Ve/V)/N	N=(1-Ve/V)/T");
-                    getch();
-                    printf("\n\n\n   Presiona una tecla para ir al menu...");
-                    getch();
-                    break;
-
-                case 8:
-                    system("cls");
-                    system("color 6F");
-                    printf("\n   FACTORAJE:\n\n");
-                    getch();
-                    printf("   Es una herramienta financiera que permite a una empresa, contar con\n");
-                    printf("   liquides inmediata a traves de una sesion  de derechos de las cuentas \n");
-                    printf("   por cobrar en su activo a otra empresa llamada: factor mediante mas \n");
-                    printf("   comision.\n\n");
-                    getch();
-                    printf("   El factoraje consiste en la compra de derechos crediticios y la \n");
-                    printf("   prestacion de servicios comentarios, la empresa liquida va activo y\n");
-                    printf("   convierte sus cuentas por cobrar en efectivo.\n\n");
-                    getch();
-                    printf("   Los elementos que intervienen son:\n\n");
-                    getch();
-                    printf("   Cliente: persona fisica o moral que cede sus derechos de cobro sobre\n");
-                    printf("   documentos a favor.\n\n");
-                    getch();
-                    printf("   Factor: persona moral que adquiere dichos derechos mediante el cobro de\n");
-                    printf("   una comision.\n\n");
-                    getch();
-                    printf("   Deudor: persona que extiende dichos documentos para cobro posterior como\n");
-                    printf("   pago o por el uso de servicios.\n\n");
-                    getch();
-                    printf("   Los servicios prestados por el factor son:\n\n");
-                    getch();
-                    printf("   1) Analisis de riesgos y creditos comerciales.\n");
-                    printf("   2) Otorgamiento de anticipos a cuenta de cobros.\n");
-                    printf("   3) Cobertura de riesgos de insolvencia \n");
-                    printf("   4) pagos anticipados a proveedores.\n\n");
-                    getch();
-                    printf("   TIPOS DE FACTORAJE:\n\n");
-                    getch();
-                    printf("   1: factoraje con recursos\n\n");
-                    getch();
-                    printf("   Donde el cliente se obliga solidariamente con el deudor ante la empresa \n");
-                    printf("   de factoraje por el pago en la fecha de vencimiento de los derechos \n");
-                    printf("   cedidos.\n\n");
-                    getch();
-                    printf("   2: factoraje sin recursos\n\n");
-                    getch();
-                    printf("   Donde el cliente no esta obligado a responder por el pago de los \n");
-                    printf("   derechos de credito cedidos al factor.\n\n");
-                    getch();
-                    printf("   FACTORAJE CON RECURSOS:\n\n");
-                    getch();
-                    printf("   Presenta las siguientes modalidades:\n\n");
-                    printf("   A)	Compra a valor presente\n");
-                    printf("   B)	Compra con anticipo a cuenta del pago acordado\n");
-                    printf("   C)	Intereses anticipados sin cobro de honorarios\n");
-                    printf("   D)	Factoraje sin notificacion  con fianza de cumplimiento y de\n");
-                    printf("        credito\n");
-                    printf("   E)	Factoraje a largo plazo\n");
-                    printf("   F)	Con mandato de cobranza\n\n");
-                    getch();
-                    printf("   Al vencimiento puede ocurrir:\n\n");
-                    getch();
-                    printf("   1: Que el deudor pague al factor librando al cliente de su responsabilidad.\n");
-                    printf("   2: Que el deudor no pague en cuyo caso el cliente puede cubrir el total de\n");
-                    printf("   la venta o renegociar la cartera.\n\n");
-                    getch();
-                    printf("   FACTORAJE SIN RECURSOS:\n\n");
-                    getch();
-                    printf("   Es cuando se hace la venta de documentos, sin existir ningun compromiso del\n");
-                    printf("   cliente hacia el factor, por lo que las tasas aplicadas son superiores a\n");
-                    printf("   las del factoraje con recursos y se efectua a travez de un endoso en \n");
-                    printf("   propiedad.\n\n");
-                    printf("   Las modalidades son:\n\n");
-                    getch();
-                    printf("   1)	Con pago anticipado: el cliente recibe un anticipo por parte del factor\n");
-                    printf("   y la diferencia en la fecha de vencimiento, aun cuando el deudor, no haya \n");
-                    printf("   liquidado la cuenta por cobrar.\n\n");
-                    printf("   2)	Con pago al vencimiento: el factor asume el riesgo completo de \n");
-                    printf("   incobrabilidad y el cliente recibe su pago, independientemente de que\n");
-                    printf("   el deudor realice o no el suyo en ambos casos sera notificado el \n");
-                    printf("   deudor por parte del factor que es legitimo propietario de las cuentas\n");
-                    printf("   por cobrar.\n\n");
-                    getch();
-                    printf("   Ya sea a credito o a la venta de las cuentas por cobrar se calcula sobre el\n");
-                    printf("   valor nominal, y va de un 70 porciento a un 90 porciento, la diferencia \n");
-                    printf("   de un 30 porciento a un 10 porciento recibe el nombre de aforo o reserva\n");
-                    printf("   de garantia y sera entregado al sedente cuando los\n");
-                    printf("   deudores hayan liquidado los creditos al factor.\n\n");
-                    getch();
-                    printf("\n\n\n   Presiona una tecla para ir al menu...");
-                    getch();
-                    break;
-
-                case 9:
+                    system("color  9F");
+                    readtemario(OpcionTema);
+                }
+                else if (OpcionTema == 9)
+                {
                     system("cls");
                     printCreeper();
                     printf("\n\n    Regreso al menu Principal...");
                     getch();
-                    break;
-
-                default:
+                }
+                else
+                {
                     system("cls");
                     printf("\n\n    Selecciono una opcion incorrecta. Presione una tecla para ir al menu...");
                     getch();
-                    break;
                 }
 
             } while (OpcionTema != 9);
@@ -1959,7 +1668,8 @@ int main()
     return 0;
 }
 
-void printCreeper() {
+void printCreeper()
+{
     printf("\n    ################################");
     printf("\n    ################################");
     printf("\n    ####       ###########       ###");
@@ -1977,12 +1687,14 @@ void printCreeper() {
     printf("\n    ################################");
 }
 
-
-void realizarOperacion() {
+void realizarOperacion()
+{
     int resultadoOperacion1 = operacion1();
+    int resultadoOperacion2 = operacion2(resultadoOperacion1);
 }
 
-int operacion1() {
+int operacion1()
+{
     int opcion1 = 0;
 
     printf("  Tiempo que se va a convertir:\n\n");
@@ -2002,10 +1714,11 @@ int operacion1() {
     return opcion1;
 }
 
-int operacion2(int primeraOpcion) {
+int operacion2(int primeraOpcion)
+{
     int opcion2 = 0;
 
-    char arregloTiempo [9][100] = {
+    char arregloTiempo[9][100] = {
         {"Anios"},
         {"Semestres"},
         {"Cuatrimestres"},
@@ -2014,32 +1727,37 @@ int operacion2(int primeraOpcion) {
         {"Meses"},
         {"Quincenas"},
         {"Semanas"},
-        {"Dias"}
-    };
+        {"Dias"}};
+
+    printf("  A que tiempo desea convertir:\n\n");
 
     for (int i = 0; i < 9; ++i)
     {
-        if(i + 1 == opcion2) {
-            
+        if (i + 1 == opcion2)
+        {
+            continue;
         }
-        
-        printf("%i. %s \n", i + 1, arregloTiempo[i]);
-    }
-    
 
-    printf("  A que tiempo desea convertir:\n\n");
-    printf("  1. a%cos\n", 164);
-    printf("  2. semestres\n");
-    printf("  3. cuatrimestres\n");
-    printf("  4. trimestres\n");
-    printf("  5. bimestres\n");
-    printf("  6. meses\n");
-    printf("  7. quincenas\n");
-    printf("  8. semanas\n");
-    printf("  9. dias\n");
-    printf("  10. Salir\n");
+        printf("%i. %s \n", i + 1, arregloTiempo[i]);
+
+        if (i + 1 == 8)
+        {
+            printf("%i. Salir", i + 2);
+        }
+    }
 
     printf("\n  Seleccione una opcion: ");
     scanf("%i", &opcion2);
     return opcion2;
+
+    // printf("  1. a%cos\n", 164);
+    // printf("  2. semestres\n");
+    // printf("  3. cuatrimestres\n");
+    // printf("  4. trimestres\n");
+    // printf("  5. bimestres\n");
+    // printf("  6. meses\n");
+    // printf("  7. quincenas\n");
+    // printf("  8. semanas\n");
+    // printf("  9. dias\n");
+    // printf("  10. Salir\n");
 }

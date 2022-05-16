@@ -1,0 +1,23 @@
+- Interes Simple
+
+Renta que se paga por el uso de un capital prestado y se calcula seg%cn un 
+tanto por ciento en un tiempo determinado, por lo consiguiente, la tasa 
+puede ser anual, semestral, cuatrimestral, trimestral, bimestral, mensual, 
+quincenal, semanal o diaria.
+
+Elementos
+- Capital (C: Cantidad que se impone a determinada tasa y por ciento tiempos).
+- Interes (I: Es la renta que se paga por el uso del capital).
+- Tiempo (n: Numero de años, meses, dias, etc, que dura la imposicion de 
+capital).
+- Tasa (t: Interes expresado en tanto por ciento).
+- Monto (M: Suma del capital mas los intereses).
+
+En los ejercicios de interes simple o financieros, generalmente se utiliza el 
+año comercial, es decir, el de 360 dias, el año natural es de 365 dias.
+
+Formulas
+I=Ctn
+C=I/tn
+t= I/Cn
+

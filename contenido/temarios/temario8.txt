@@ -1,0 +1,81 @@
+FACTORAJE:
+
+Es una herramienta financiera que permite a una empresa, contar con
+liquides inmediata a traves de una sesion  de derechos de las cuentas 
+por cobrar en su activo a otra empresa llamada: factor mediante mas 
+comision.
+
+El factoraje consiste en la compra de derechos crediticios y la 
+prestacion de servicios comentarios, la empresa liquida va activo y
+convierte sus cuentas por cobrar en efectivo.
+
+Los elementos que intervienen son:
+
+Cliente: persona fisica o moral que cede sus derechos de cobro sobre
+documentos a favor.
+
+Factor: persona moral que adquiere dichos derechos mediante el cobro de
+una comision.
+
+Deudor: persona que extiende dichos documentos para cobro posterior como
+pago o por el uso de servicios.
+
+Los servicios prestados por el factor son:
+
+1) Analisis de riesgos y creditos comerciales.
+2) Otorgamiento de anticipos a cuenta de cobros.
+3) Cobertura de riesgos de insolvencia 
+4) pagos anticipados a proveedores.
+
+TIPOS DE FACTORAJE:
+
+1: factoraje con recursos
+
+Donde el cliente se obliga solidariamente con el deudor ante la empresa 
+de factoraje por el pago en la fecha de vencimiento de los derechos 
+cedidos.
+
+2: factoraje sin recursos
+
+Donde el cliente no esta obligado a responder por el pago de los 
+derechos de credito cedidos al factor.
+
+FACTORAJE CON RECURSOS:
+
+Presenta las siguientes modalidades:
+A)	Compra a valor presente
+B)	Compra con anticipo a cuenta del pago acordado
+C)	Intereses anticipados sin cobro de honorarios
+D)	Factoraje sin notificacion  con fianza de cumplimiento y de
+credito
+E)	Factoraje a largo plazo
+F)	Con mandato de cobranza
+
+Al vencimiento puede ocurrir:
+
+1: Que el deudor pague al factor librando al cliente de su responsabilidad.
+2: Que el deudor no pague en cuyo caso el cliente puede cubrir el total de
+la venta o renegociar la cartera.
+
+FACTORAJE SIN RECURSOS:
+
+Es cuando se hace la venta de documentos, sin existir ningun compromiso del
+cliente hacia el factor, por lo que las tasas aplicadas son superiores a
+las del factoraje con recursos y se efectua a travez de un endoso en 
+propiedad.
+Las modalidades son:
+
+1)	Con pago anticipado: el cliente recibe un anticipo por parte del factor
+y la diferencia en la fecha de vencimiento, aun cuando el deudor, no haya 
+liquidado la cuenta por cobrar.
+2)	Con pago al vencimiento: el factor asume el riesgo completo de 
+incobrabilidad y el cliente recibe su pago, independientemente de que
+el deudor realice o no el suyo en ambos casos sera notificado el 
+deudor por parte del factor que es legitimo propietario de las cuentas
+por cobrar.
+
+Ya sea a credito o a la venta de las cuentas por cobrar se calcula sobre el
+valor nominal, y va de un 70 porciento a un 90 porciento, la diferencia 
+de un 30 porciento a un 10 porciento recibe el nombre de aforo o reserva
+de garantia y sera entregado al sedente cuando los
+deudores hayan liquidado los creditos al factor.

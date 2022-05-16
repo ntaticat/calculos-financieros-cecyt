@@ -1,0 +1,13 @@
+Monto Simple
+Es la suma del capital mas los intereses, es el valor futuro y siempre es 
+mayor que el capital.
+
+Elementos:
+Interes: Ganancia, reditos o interes
+Monto: Valor futuro
+
+Formulas:
+M=C(1+tn)
+C=M/(I+tn)
+T=M/C-1 /n
+n=M/C-1/t

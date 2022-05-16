@@ -1,0 +1,25 @@
+- Reparto Proporcional
+
+Es la operacion que tiene por objetivo distribuir una cantidad en
+proporcion directa o inversa a ciertos numeros dados, o a los
+productos de varios numeros propuestos.
+
+Se puede representar asi:
+   1. Reparto proporcional directo simple.
+   2. Reparto proporcional inverso simple.
+   3. Reparto proporcional directo compuesto.
+   4. Reparto proporcional inverso compuesto.
+   5. Reparto proporcional mixto.
+
+En la materia de Calculos financieros I solo se ve el reparto
+proporcional directo simple.
+
+- Reparto proporcional directo simple.
+Se considera directo cuando el numero de indice mayor o reparto
+le corresponde mas y al indice menor le corresponde menos.
+Es simple cuando solo existe una serie de datos para efectuar.
+La resolucion de este tipo de casos se efectuan por medio del 
+metodo de factor constante, que consiste en dividir la cantidad
+a repartir entre la suma de los datos, a el cociente representa
+el factor constante y dicho factor se multiplica por cada uno
+de los numeros dados.

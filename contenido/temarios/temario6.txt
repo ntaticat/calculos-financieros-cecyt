@@ -1,0 +1,51 @@
+
+Descuento simple
+
+Cantidad o valor que se deduce de otro y se consigna de un   
+documento o titulo de credito por anticipacion anticipada a su 
+fecha de vencimiento.
+
+El valor inscrito a un documento se le conoce como valor 
+nominal y representa el capital prestado mas intereses.
+
+En el documento debe anotarse la fecha de vencimiento, es
+decir, el dia que debe ser liquidado, si se paga antes de esa
+fecha su valor disminuye. 
+
+En la actualidad la operaciones a credito se garantizan atraves
+de documentos y a falta de recursos se acude a instituciones
+bancarias mediante endoso de documentos a cambio de dinero en 
+efectivo el cual es menor al valor nominal pues tendra que 
+esperar ala fecha de vencimiento para cobrarlo a esto se le
+conoce como valor real o actual.
+
+Los elementos que intervienen en el descuento simple son:
+
+1. Valor nominal (V) valor o cantidad que se inscribe en el
+cuerpo del documento de credito y que lleva los intereses
+acordados. 
+2. Descuento simple (Ds) cantidad que se deduce del valor 
+nominal en funcion ala tasa y el tiempo determinado. 
+3. Valor efectivo real o actual (Ve) resultado que se obtiene
+de restar del valor nominal, descuento simple y gastos de
+negociacion.
+4. Documento de credito: titulo de credito por medio del cual
+una persona se compromete a pagar cierta cantidad
+de dinero a una fecha determinada. 
+
+Las operaciones de interes simple y descuento simple son muy 
+similares exceptuando que el interes es una utilidad y el 
+descuento una perdida. 
+
+Formulas:
+Descuento simple 
+Ds: Descuento simple
+V: Valor nominal 
+T: Tasa
+N: Tiempo 
+
+Ds=V*T*N
+V=Ds/T*N
+T=Ds/V*N
+N=Ds/T*V
+

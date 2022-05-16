@@ -1,0 +1,42 @@
+- HOJA DE PRORRATEO EN MONEDA NACIONAL                              
+Es la operacion que tiene por objeto determinar atraves de un reparto
+proporcional, el gasto de una factura conciendo el precio de compra y
+los gastos relacionados por la misma.
+
+ELEMETOS:
+
+PRECIO DE COMPRA:
+Se concidera haci al precio de adquisicion de las mercancias.
+PRECIO DE COSTO:
+Es el precio de compra mas los gastos ocacionados por la misma.
+GASTOS:
+Se le llaman a todas las erogaciones causadas por la compra
+(salidas de dinero).
+GASTOS AL PESO:
+Son todos aquellos ocacionados por el movimiento, y/o peso de la
+mercancia, como los empaques, acarreos,fletes,maniobra en puertos
+enbarques y desenbarques, enbalajes, almacenaje,etc.
+GASTOS AL VALOR:
+Son toos aquellos que no dependen del movimiento y peso de la
+mercancia, como documentacion, seguros, comiciones, derechos de
+guarda y justodia, telefonemas, etc.
+
+Para efectuar un adecuado prorrateo de gastos es necesario distinguir
+entre los pesos de la mercancia:
+
+PESO BRUTO:
+Es el peso de la mercancia con todas sus embulturas.
+PESO NETO:
+Es el peso de la mercacia despojada de todos sus empaques.
+TARA:
+Se llama asi al peso del empaque.
+
+- HOJA DE PRORRATEO EN MONEDA EXTRANJERA                            
+
+1.- TIPO DE CAMBIO:
+Es la convercion de peso Mexicano de monadedas extranjeras.
+2.- MONEDA EXTRANJERA:
+Dinero en uso de otros paises.
+3.- DERECHOS ADUANALES:
+Son los impuestos que se cobran por la exportacion o importacion
+de mercancia en otros paises.

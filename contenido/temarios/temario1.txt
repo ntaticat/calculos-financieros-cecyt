@@ -1,0 +1,48 @@
+||==============================================================================
+|| - Porcentaje
+||==============================================================================
+||
+|| Un porcentaje es la parte proporcional expresada en tanto porciento de
+|| una cantidad llamada base, el porcentaje y la base siempre deben ser de
+|| la misma especie.
+|| 
+|| 1.- Base: Es la cantidad sobre la cual se calcula el porcentaje.
+|| 2.- Tanto porciento: Es el numero de veces que se toma un centimo
+|| de la base.
+|| 3.- Tanto por uno: Es la centesima parte del tanto porciento y el que
+|| se emplea en las operaciones.
+|| 
+|| La formula es: 
+|| P=Bt
+|| 
+|| Donde: 
+|| P = Porcentaje
+|| B = Base
+|| t = Tanto porciento
+|| 
+|| - Monto
+|| 
+|| Es la suma de la base mas el porcentaje.
+|| 
+|| La formula es:
+|| M=B(1+t)
+|| 
+|| Donde: 
+|| M = Monto
+|| B = Base
+|| t = Tanto porciento
+|| 
+|| - Diferencia
+|| 
+|| La diferencia es el resultado que se obtiene de restar la base del
+|| porcentaje.
+|| 
+|| La formula es:
+|| D=B(1-t)
+|| 
+|| Donde: 
+|| D = Diferencia
+|| B = Base
+|| t = Tanto porciento
+||
+||==============================================================================

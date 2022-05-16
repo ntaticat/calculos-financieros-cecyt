@@ -1,0 +1,15 @@
+- Valor efectivo
+
+Es el resultado que se obtiene de restar el valor nominal,
+descuento simple y gastos de negociacion si los hubiere. 
+
+Formulas:
+Ve: Valor efectivo 
+V: Valor nominal 
+T: Tasa
+N: Tiempo 
+
+V=Ve/(1-T*N)
+Ve=V(1-T*N)
+T=(1-Ve/V)/N
+N=(1-Ve/V)/T
