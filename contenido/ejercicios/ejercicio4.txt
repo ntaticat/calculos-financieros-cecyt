@@ -1,0 +1,8 @@
+system("cls");
+                    system("color 5f");
+                    printf("\n  Ejercicios...\n\n");
+                    printf("\n     Monto Simple\n\n");
+                    printf("\n  1. En cuantos a�os meses y d�as $344500 tardaran en convertirse en 2300200 a\n   una tasa del .49% semanal");
+                    printf("\n\n    Presione una tecla para ir al menu");
+                    getch();
+                    break;

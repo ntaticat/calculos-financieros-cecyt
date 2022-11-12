@@ -1,0 +1,12 @@
+system("cls");
+                    system("color 6F");
+                    printf("\n  Ejercicios...\n\n");
+                    printf("\n      Factoraje\n\n");
+                    printf("   La compania el gato saltarin S.A. de C.V. por requerimiento de liquidez decide\n   liquidar un contrato de factoraje con recursos, siendo su cartera de\n   3,544,900 firmando por ello un documento a 53 dias, bajo las siguientes\n   condiciones:\n\n");
+                    printf("   A)	Comision por manejo administrativo 5 porciento\n");
+                    printf("   B)	Anticipo  59 porciento\n");
+                    printf("   C)	Tasa 9.49 porciento  semestral\n\n");
+                    printf("   Que cantidad recibira el cliente?\n\n");
+                    printf("\n\n    Presione una tecla para ir al menu");
+                    getch();
+                    break;

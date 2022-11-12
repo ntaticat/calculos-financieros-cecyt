@@ -1,0 +1,75 @@
+system("cls");
+system("color 4f");
+printf("\n      Interes Simple\n");
+/* Ejemplo1 */
+printf("\n  1. El se%cor Marriques realiza una inversi%cn de inter%cs simple de $27530 a una \n  tasa de 6.5%c semestral durante 9 meses %cDe cu%cnto es su ganancia?\n", 164, 162, 130, 37, 168, 160);
+getch();
+/*Primero se colocan los datos correctos*/
+printf("\n  %c Datos:", 254);
+printf("\n  %c Capital: $ 27530", 126);
+getch();
+printf("\n  %c Tasa: 5%c semestral", 126, 37);
+getch();
+printf("\n  %c Tiempo: 9 meses", 126);
+getch();
+printf("\n  %c Inter%cs: %c?\n", 126, 130, 168);
+getch();
+/* Se coloca la f�rmula */
+printf("\n  %c Formula:\n    I=Ctn\n", 254);
+getch();
+/*Se realiza la sustituci�n*/
+printf("\n  %c Sustituci%cn: \n    I= 27530(.010833)(9)       I= 2684.17\n", 254, 162);
+getch();
+/*Se coloca el resultado*/
+printf("\n  %c Resultado: \n   I= $2684.17\n\n", 254);
+getch();
+system("cls");
+
+/* Ejemplo 2*/
+printf("\n\n  2. Se realiza un pr%cstamo al 8%c trimestral a pagar en 2 a%cos y medio, si por \n   inter%cs se pagan $28490.60 %cDe cu%cnto es el pr%cstamo?", 130, 37, 164, 130, 168, 160, 130);
+/*Primero se colocan los datos correctos*/
+getch();
+printf("\n\n  %c Datos:", 254);
+printf("\n  %c Capital: %c?", 126, 168);
+getch();
+printf("\n  %c Tasa: 8%c trimestral", 126, 37);
+getch();
+printf("\n  %c Tiempo: 2.5 a%cos", 126, 164);
+getch();
+printf("\n  %c Inter%cs: $28,549.6\n", 126, 130);
+getch();
+/* Se coloca la f�rmula */
+printf("\n  %c Formula:\n    C=I/tn\n", 254);
+getch();
+/*Se realiza la sustituci�n*/
+printf("\n  %c Sustituci%cn: \n    C=28549.6/(0.32)(2.5) o C=28549.6/(0.08)(10)\n", 254, 162);
+getch();
+/*Se coloca el resultado*/
+printf("\n  %c Resultado: \n   I= $2684.17\n\n", 254);
+getch();
+system("cls");
+
+/*Ejemplo 3*/
+printf("\n  3. Yale de C.O. compra mercanc%ca por $124860 a cr%cdito a pagar en 5 bimestres,   si por r%cditos se cobran 30.775.75 en 5 bimestres %cA qu%c tasa cuatrimestral \n   est%c pactado el cr%cdito?", 161, 130, 130, 168, 130, 160, 130);
+/*Primero se colocan los datos correctos*/
+getch();
+printf("\n\n  %c Datos:", 254);
+printf("\n  %c Capital: $124860", 126);
+getch();
+printf("\n  %c Tasa: %c? cuatrimestral", 126, 168);
+getch();
+printf("\n  %c Tiempo: 5 bimestres ", 126);
+getch();
+printf("\n  %c Inter%cs: $32775.75\n", 126, 130);
+getch();
+/* Se coloca la f�rmula */
+printf("\n  %c Formula:\n    t=I/Cn\n", 254);
+getch();
+/*Se realiza la sustituci�n*/
+printf("\n  %c Sustituci%cn: \n    t=32775.75/(124860)(2.5)\n", 254, 162);
+getch();
+/*Se coloca el resultado*/
+printf("\n  %c Resultado: \n   t= 10.5% cuatrimestral\n\n", 254);
+getch();
+system("cls");
+break;

@@ -1,0 +1,75 @@
+system("cls");
+system("color 5f");
+printf("\n      Monto Simple\n");
+/*Ejemplo 1*/
+printf("\n  1. Se pide un pr%cstamo de 40600 a pagar en 2 a%cos y 5 meses a una tasa del 6.4%c trimestral, %cCu%cnto se pagar%c en total?", 130, 164, 37, 168, 160, 160, 160);
+/*Primero se colocan los datos correctos*/
+getch();
+printf("\n\n  %c Datos:", 254);
+printf("\n  %c Capital: $40600", 126);
+getch();
+printf("\n  %c Tasa: 6.4% trimestral", 126, 37);
+getch();
+printf("\n  %c Tiempo: 2 a%cos y 5 meses ", 126, 164);
+getch();
+printf("\n  %c Monto: %c?\n", 126, 168);
+getch();
+/* Se coloca la f�rmula */
+printf("\n  %c Formula:\n    M=C(1+tn)\n", 254);
+getch();
+/*Se realiza la sustituci�n*/
+printf("\n  %c Sustituci%cn: \n    M=40600(1+0.0233x29)    \n", 254, 162);
+getch();
+/*Se coloca el resultado*/
+printf("\n  %c Resultado: \n   M=$65717.866\n\n", 254);
+getch();
+system("cls");
+
+/*Ejemplo 2*/
+printf("\n  2. Se desea saber la cantidad que asendera a $8400 en un a%co y un cuatrimestre a una tasa del 5%c bimestral", 164, 37);
+/*Primero se colocan los datos correctos*/
+getch();
+printf("\n\n  %c Datos:", 254);
+printf("\n  %c Capital: %c?", 126, 168);
+getch();
+printf("\n  %c Tasa: 5%c bimestral", 126, 37);
+getch();
+printf("\n  %c Tiempo: 1 a%co y 1 cuatrimestre ", 126, 164);
+getch();
+printf("\n  %c Monto: 84000\n", 126, 168);
+getch();
+/* Se coloca la f�rmula */
+printf("\n  %c Formula:\n    C=M/(1+tn)       \n", 254);
+getch();
+/*Se realiza la sustituci�n*/
+printf("\n  %c Sustituci%cn: \n    MC=84000/(1+0.005x8)           \n", 254, 162);
+getch();
+/*Se coloca el resultado*/
+printf("\n  %c Resultado: \n   c=$60000\n\n", 254);
+getch();
+system("cls");
+
+/*Ejemplo 3*/
+printf("\n  3. A que tasa de interes anual y trimestral se convertiran $200000 en 221700 durante 4 bimestres y medio");
+/*Primero se colocan los datos correctos*/
+getch();
+printf("\n\n  %c Datos:", 254);
+printf("\n  %c Capital: 2000000	", 126);
+getch();
+printf("\n  %c Tasa: =? anual o trimestral", 126, 37);
+getch();
+printf("\n  %c Tiempo: 4.5 Bimestres ", 126, 164);
+getch();
+printf("\n  %c Monto: 221700\n", 126, 168);
+getch();
+/* Se coloca la f�rmula */
+printf("\n  %c Formula:\n         t=M/C-1/n              \n", 254);
+getch();
+/*Se realiza la sustituci�n*/
+printf("\n  %c Sustituci%cn: \n    t=221700/200000 -1 /4.5      \n", 254, 162);
+getch();
+/*Se coloca el resultado*/
+printf("\n  %c Resultado: \n   t=2.4111% bimestral *1.5   t=3.61% trimestra*4	t=14.4% anual\n\n", 254);
+getch();
+system("cls");
+break;

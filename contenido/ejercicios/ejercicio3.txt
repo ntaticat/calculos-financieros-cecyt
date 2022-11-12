@@ -1,0 +1,8 @@
+system("cls");
+                    system("color 4f");
+                    printf("\n  Ejercicios...\n\n");
+                    printf("\n     Interes Simple\n\n");
+                    printf("\n  1. Games y Asociados piden un pr%cstamo a pagar en 5 cuatrimestres, a una \n    tasa de 8.9%c trimestral. Si por intereses se pagan $29850 %cDe cu%cnto fue el \n    pr%cstamo?\n\n", 130, 37, 168, 160, 130);
+                    printf("\n\n    Presione una tecla para ir al menu");
+                    getch();
+                    break;

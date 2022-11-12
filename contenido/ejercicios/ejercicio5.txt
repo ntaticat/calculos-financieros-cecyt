@@ -1,0 +1,9 @@
+system("cls");
+                    system("color 3F");
+                    printf("\n  Ejercicios...\n\n");
+                    printf("\n     Descuento Simple\n\n");
+                    printf("Se descuenta un documento con valor de 342500 antes de su vencimiento a una tasa de 5.4 semestral si el\n");
+                    printf("descuento fue de 5879 cuantos meses y dias faltaban\n");
+                    printf("\n\n    Presione una tecla para ir al menu");
+                    getch();
+                    break;

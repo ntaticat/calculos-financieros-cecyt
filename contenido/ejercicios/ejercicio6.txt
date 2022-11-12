@@ -1,0 +1,10 @@
+system("cls");
+                    system("color 8F");
+                    printf("\n  Ejercicios...\n\n");
+                    printf("\n     Valor Efectivo\n\n");
+                    printf("   Se negocia un documento para la adquisicion de un local por 226544\n");
+                    printf("   con vencimiento en 3 anio aplicandose una tasa de 53 porciento\n");
+                    printf("   anual. Que cantidad se entregara por el documento?\n\n");
+                    printf("\n\n    Presione una tecla para ir al menu");
+                    getch();
+                    break;
